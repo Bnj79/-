@@ -109,12 +109,12 @@ checkbox.addEventListener("click", function (e) {
   }
 });
 
-localStorage.setItem("mahdi1", "kazemi1");
+localStorage.setItem("ben1", "khezi1");
 
-localStorage.setItem("mahdi2", "kazemi2");
+localStorage.setItem("ben2", "khezli2");
 
-localStorage.setItem("mahdi3", "kazemi3");
-const name = localStorage.getItem("mahdi");
+localStorage.setItem("ben3", "khezli3");
+const name = localStorage.getItem("ben");
 console.log(name);
 localStorage.removeItem("mahdi1");
 localStorage.clear();
